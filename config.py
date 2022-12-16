@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5787132677:AAGPFelPuTEvZHPZM5CNPbN3AobU-0ytVlE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5985877504:AAE0yAU5nD3EoQfqnchtEKk5n6sjpfG1Fjw")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "25876983"))
@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "25876983"))
 API_HASH = os.environ.get("API_HASH", "901ab54686da647977e6b41e0f1fe690")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001737382963"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001620373772"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "youngplus")
@@ -57,7 +57,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu[Klik DISINI](https://t.me/bokekbot?start=Z2V0LTc0OTQ3MjE4NjMyMjIyMTYtNzQ5NjcyNDk5NjE1MzcyMA)</b>",
+    "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya Terlebih dahulu untuk Melihat File yang saya Bagikan\n\nSilakan Join Ke Channel & Group Terlebih Dahulu, Chat admin jika ada masalah @youngplus</b>",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
